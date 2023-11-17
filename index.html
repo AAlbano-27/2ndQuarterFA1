@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>QTR2 FA</title>
+            <meta charset="UTF-8">
+            <meta name="author" content="Arrianne Jeshaviah P. Albano">
+            <meta name="Section" content="Calcium">
+            <meta name="description" content="2QR FA">
+    </head>
+
+	<style>
+		#link1{
+			color:white;
+			background-color:#2e5d6e;
+			text-decoration: none;
+			}
+			
+		#link1:hover{
+			color:purple;
+			background-color:skyblue;
+			}
+			
+		#link1: active{
+			color:white;
+			background-color:blue;
+			}
+			
+		#link1:visted{
+			color:lavender;
+			background-color:yellow;
+			font-family:comic sans;
+			}
+			
+		#link1:focus{
+			color:white;
+			background-color:darkblue;
+			}
+			
+		#link2:link{
+			color:white;
+			background-color:#5cb8a1;
+			}
+		
+		#link2:hover{
+			color:darkred;
+			background-color:lightblue;
+			font-family:Sans Serif;
+			}
+		
+		#link2:visted{
+			color:white;
+			background-color:orange;
+			}
+		
+		#link2:focus{
+			color:white;
+			background-color:blue;
+			}
+		
+		#link2:visted{
+			color:white;
+			background-color:orange;
+			}
+		
+		div{
+			border: 3px solid black;
+			width: 200px;
+			height: 150px;
+			padding: 10px;
+			}
+		
+		div:target#div1{
+			background-color: #2e5d6e;
+			color:yellow;
+			
+			}
+		
+		div:target#div2{
+			background-color:#5cb8a1;
+			color:yellow;
+			border:10px dotted green;
+			}
+			
+		</style>
+		<body>
+		<p><a id="link1" href="#div1">Change Div1</a><a id="link2" href="#div2">Change Div2</a></p>
+			<br>
+			<div id="div1">Div1</div>
+			<br>
+			<div id="div2">Div2</div>
+		</body>
+</html>
